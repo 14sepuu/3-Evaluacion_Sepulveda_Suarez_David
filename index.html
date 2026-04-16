@@ -1,4 +1,5 @@
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive -->
     <title>Street Drift | Tienda</title>
     <link rel="stylesheet" href="style.css">
@@ -8,13 +9,21 @@
                     <!-- CABEZERA -->
     <header>
         <h1>STREET DRIFT</h1>
-            <nav>
-                <a href="#inicio">Inicio</a>
-                <a href="#nosotros">Nosotros</a>
-                <a href="#productos">Productos</a>
-                <a href="#calculadora">Calculadora</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
+        <div>
+            <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li class="desplegable">
+            <a href="#">Menu ▼</a>
+            <ul class="submenu">
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#calculadora">Calculadora</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </li>
+            </ul>
+        </div>
+
         <div id="inicio" class="logo">
             <img src="Logo.png" alt="Logo">
         </div>
