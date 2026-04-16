@@ -1,0 +1,126 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive -->
+    <title>Street Drift | Tienda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+                    <!-- CABEZERA -->
+    <header>
+        <h1>STREET DRIFT</h1>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#calculadora">Calculadora</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        <div id="inicio" class="logo">
+            <img src="Logo.png" alt="Logo">
+        </div>
+    </header>
+
+                    <!-- INICIO -->
+        <img class="inicio" src="Logo.png" alt="Logo">
+
+                    <!-- NOSOTROS -->
+        <div id="nosotros" class="nosotros">
+            <h2>NOSOTROS</h2>
+            <strong>Street Drift — más que ropa, una cultura.</strong>
+                <h3>¿Quiénes somos?</h3>
+                <p>Street Drift no es solo una marca de ropa, es una forma de vivir. Nacimos de la pasión por el motor, la velocidad y el estilo urbano. Somos para los que sienten la adrenalina al escuchar un motor rugir, para los que viven el drift, las carreras y la cultura del coche como parte de su identidad.
+                Nuestra marca mezcla diseño moderno con la esencia del mundo automovilístico. Cada prenda está pensada para transmitir energía, movimiento y personalidad, inspirada en las calles, los circuitos y la cultura tuning.
+                En Street Drift no seguimos las reglas, las derrapamos.
+                <h3>Nuestra misión</h3>
+                Queremos que lleves tu pasión puesta. Crear ropa que conecte con los amantes de los coches, que represente ese espíritu rebelde, libre y sin límites. No importa si estás en la pista o en la calle, Street Drift es tu actitud.<br></br>
+                </p>
+        </div>
+
+
+                    <!-- NUESTOS PRODUCTOS -->
+        <div id="productos" class="productos">
+            <h2>Nuestros Productos</h2>
+            <h3>DROP #001</h3>
+            
+            <div class="articulos">
+                <article>  <!-- CAMISETA -->
+                    <img src="Cam_Delante.png" alt="Camiseta Frontal">
+                    <img src="Cam_Atras.png" alt="Camiseta Espalda">
+                    <div class="info">
+                        <h3>Camiseta Drop #001</h3>
+                        <p class="precio">16.52€ sin 21% IVA--> 19.99€</p>
+                        <a href="#calculadora">Comprar</a>
+                    </div>
+                </article>
+
+                <article> <!-- PANTALON -->
+                    <img src="Pan_Delante.png" alt="Pantalon Frontal">
+                    <img src="Pan_Atras.png" alt="Pantalon Atras">
+                    <div class="info">
+                        <h3>Pantalon Corto Drop #001</h3>
+                        <p class="precio">20.65 sin 21% IVA--> 24.99€</p>
+                        <a href="#calculadora">Comprar</a>
+                    </div>
+                </article>
+
+                <article> <!-- PLUMAS/ABRIGO -->
+                    <img src="Plumas_Delante.png" alt="Plumas Delante">
+                    <img src="Plumas_Detras.png" alt="Plumas Atras">
+                    <div class="info">
+                        <h3>Plumas Drop #001</h3>
+                        <p class="precio">49.58 sin 21% IVA--> 59.99€</p>
+                        <a href="#calculadora">Comprar</a>
+                    </div>
+                </article>
+
+                <article> <!-- GORRA -->
+                    <img src="Gorra_Delante.png" alt="Gorra Frontal">
+                    <img src="Gorra_Detras.png" alt="Gorra Atras">
+                    <div class="info">
+                        <h3>Gorra Drop #001</h3>
+                        <p class="precio">6.60 sin 21% IVA--> 7.99€</p>
+                        <a href="#calculadora">Comprar</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+                    <!-- CALCULADORA -->
+        <div id="calculadora" class="calculadora">
+            <h2>Calculadora de Compra</h2>
+            <form id="calculadora">
+                <label>Producto:</label>
+                <select id="producto">
+                    <option value="16.52">Camiseta</option>
+                    <option value="20.65">Pantalón</option>
+                    <option value="49.58">Plumas</option>
+                    <option value="6.60">Gorra</option>
+                </select>
+
+                <label>Cantidad:</label>
+                    <input type="number" id="cantidad" value="1">
+                    <button type="submit">Calcular</button>
+            </form>
+
+            <p id="resultado"></p>
+            <script src="script.js"></script>
+        </div>
+
+                    <!-- CONTACTO -->
+        <div id="contacto" class=contacto>
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="email" name="Email" placeholder="Email">
+                <textarea placeholder="Problema o Mensaje"></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
+
+    <footer>
+        <img src="Logo.png" alt="Logo" width="50">
+        <p>© 2026 Street Drift  -  Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
